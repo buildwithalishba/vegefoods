@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Vegefoods - Free Bootstrap 4 Template by Colorlib</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="our-page1">
+            <div id="page1-top">
+                <div id="top-part1">
+                    <img width="16px" src="./images/phone-svgrepo-com.svg" alt="image">
+                    <span>+ 1235 2355 98</span>
+                </div>
+                <div id="top-part2">
+                    <img width="15px" src="./images/send.png" alt="">
+                    <span>YOUREMAIL@EMAIL.COM</span>
+                </div>
+                <span>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+            </div>
+
+            <nav id="navbar">
+                <a id="logo" href="#">VEGEFOODS</a>
+                <div id="nav-part2">
+                    <a class="nav-a" href="index.html">HOME</a>
+                    <div id="nav-wrapper">
+                        <a href="#">SHOP
+                            <img width="10px" src="./images/icons8-sort-down-30.png" alt="">
+                        </a>
+                        <div id="hidden-list">
+                            <a href="shop.html">Shop</a>
+                            <a href="wishlist.html">Wishlist</a>
+                            <a href="product-single.html">Single Product</a>
+                            <a href="cart.html">Cart</a>
+                            <a href="checkout.html">Checkout</a>
+                        </div>
+                    </div>
+
+                    <a class="nav-a" href="about.html">ABOUT US</a>
+                    <a class="nav-a" href="blog.html">BLOG</a>
+                    <a class="nav-a" href="contact.html">CONTACT</a>
+                    <a class="nav-a cart-box" href="cart.html"><img id="cart" width="15vw"
+                            src="./images/icons8-cart-50.png" alt="image">[0]</a>
+                </div>
+                <button onclick="hamburger()" id="hamburger">&#9776;&nbsp;MENU</button>
+
+                <!-- Mobile menu -->
+                <div class="mobile-menu">
+                    <div class="menu flex-Y">
+                        <a class="nav-a" href="#">HOME</a>
+                        <a href="#">SHOP
+                            <img width="10px" src="./images/icons8-sort-down-30.png" alt="">
+                        </a>
+                        <a class="nav-a" href="about.html">ABOUT US</a>
+                        <a class="nav-a" href="blog.html">BLOG</a>
+                        <a class="nav-a" href="contact.html">CONTACT</a>
+                        <a class="nav-a" href="cart.html"><img id="cart" width="15vw" src="./images/icons8-cart-50.png"
+                                alt="image">[0]</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="center-bg">
+                <div id="center-text" class="flexY-center">
+                    <div id="center-refer" class="flex">
+                        <a href="index.html">HOME</a>
+                        <span>PRODUCTS</span>
+                    </div>
+                    <h1>PRODUCTS</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="shop-page2" class="flex-Y">
+            <div class="flexX-center">
+                <a href="#" class="category category-active">All</a>
+                <a href="#" class="category">Vegetables</a>
+                <a href="#" class="category">Fruits</a>
+                <a href="#" class="category">Juice</a>
+                <a href="#" class="category">Dried</a>
+            </div>
+
+            <div id="page3-section">
+                <div class="pg3-sec-part">
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_1_product-1.jpg" alt="">
+                        <h3>BELL PEPPER</h3>
+                        <span class="price">$80.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_2_product-2.jpg" alt="">
+                        <h3>STRAWBERRY</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_3_product-3.jpg" alt="">
+                        <h3>GREEN BEANS</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_4_product-4.jpg" alt="">
+                        <h3>PURPLE CABBAGE</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <a href="#">30%</a>
+                </div>
+                <div class="pg3-sec-part">
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_5_product-5.jpg" alt="">
+                        <h3>TOMATOE</h3>
+                        <span class="price">$80.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_6_product-6.jpg" alt="">
+                        <h3>BROCOLLI</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_7_product-7.jpg" alt="">
+                        <h3>CARROTS</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_8_product-8.jpg" alt="">
+                        <h3>FRUIT JUICE</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <a href="#">30%</a>
+                </div>
+                <div class="pg3-sec-part">
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_9_product-9.jpg" alt="">
+                        <h3>BELL PEPPER</h3>
+                        <span class="price">$80.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_10_product-10.jpg" alt="">
+                        <h3>STRAWBERRY</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_11_product-11.jpg" alt="">
+                        <h3>GREEN BEANS</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="pg3-card">
+                        <img class="pag3-img" height="235px" width="300px" src="./images/imgi_12_product-12.jpg" alt="">
+                        <h3>PURPLE CABBAGE</h3>
+                        <span class="price">$120.00</span>
+                        <div class="icons-sec">
+                            <div><img height="20px" width="20px" src="./images/icons8-menu-30.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-cart-24.png" alt=""></div>
+                            <div><img height="20px" width="20px" src="./images/icons8-heart-30.png" alt=""></div>
+                        </div>
+                    </div>
+                    <a href="#">30%</a>
+                </div>
+                <div class="flexX-center" id="numbers">
+                    <a href="#"> &lt;</a>
+                    <a class="numbers-active" href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">&gt;</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="input-part">
+                <div id="input-part-p1">
+                    <h2>Subcribe to our Newsletter</h2>
+                    <p>Get e-mail updates about our latest shops and special offers</p>
+                </div>
+                <div id="input-part-p2">
+                    <input id="input-box" type="email" name="EMAIL" id="email" placeholder="Enter email address">
+                    <button id="Subcribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <a href="#">
+                <div id="circle-up"><img height="17px" width="17px" src="./images/icons8-up-67.png" alt=""></div>
+            </a>
+            <div id="footer-bottom">
+                <div id="footer-reference">
+                    <div id="vege" class="flex-Y">
+                        <h2>Vegefoods</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+                        <div class="flex">
+                            <img class="icon" width="30vw" src="./images/twitter.svg" alt="">
+                            <img class="icon" width="30vw" src="./images/facebook.svg" alt="">
+                            <img class="icon" width="30vw" src="./images/insta.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div id="menu" class="flex-Y">
+                        <h2>Menu</h2>
+                        <a href="#">Shop</a>
+                        <a href="#">About</a>
+                        <a href="#">Journal</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+
+                    <div id="help" class="flex-Y">
+                        <h2>Help</h2>
+                        <div class="flex">
+                            <div class="flex-Y">
+                                <a href="#">Shipping Information</a>
+                                <a href="#">Returns & Exchange</a>
+                                <a href="#">Term & Conditions</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">FAQs</a>
+                            </div>
+                            <div id="faq" class="flex-Y">
+                                <a href="#">FAQs</a>
+                                <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="question" class="flex-Y">
+                        <h2>Have a Question?</h2>
+                        <div class="flex">
+                            <img class="icon" width="17px" height="22px" src="./images/icons8-location-50.png" alt="">
+                            <span> 203 Fake St. Mountain View, San Francisco, California, USA</span>
+                        </div>
+                        <div class="flex">
+                            <img class="icon" width="17px" src="./images/icons8-call-24.png" alt="">
+                            <span>+2 392 3929 210</span>
+                        </div>
+                        <div class="flex">
+                            <img class="icon" width="17px" src="./images/icons8-email-50.png" alt="">
+                            <span>info@yourdomain.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <span>Copyright ©2025 All rights reserved | This template is made with by</span>
+                    <img height="15px" width="15px" src="./images/Heart.svg" alt="">
+                    <a href="#">Colorlib</a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
