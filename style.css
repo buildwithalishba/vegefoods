@@ -1397,8 +1397,27 @@ footer {
 .contact-part-2 {
     margin-left: 30px;
 }
+@media screen and (max-width: 600px){
+ .billing-part {
+        flex-direction: column;
+    }
+        #contact-part img {
+        width: 50%;
+        height: 50%;
+    }
 
-@media screen and (max-width: 1336px) {
+    .contact-input {
+        padding-right: 187px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    #blog-sec {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1100px) {
     #contact {
         flex-direction: column;
         gap: 30px;
@@ -1408,9 +1427,6 @@ footer {
         flex-direction: column;
     }
 
-    .billing-part {
-        flex-direction: column;
-    }
 
     .parallel {
         flex-direction: column;
@@ -1425,18 +1441,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
-    #contact-part img {
-        width: 50%;
-        height: 50%;
-    }
-
-    .contact-input {
-        padding-right: 187px;
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-}
 
 .blog-img img {
     height: 288px;
@@ -1555,9 +1559,6 @@ footer {
 }
 
 @media screen and (max-width: 1362px) {
-    #blog-sec {
-        flex-direction: column;
-    }
 
     .blog-card {
         flex-direction: column;
