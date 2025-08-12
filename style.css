@@ -99,7 +99,7 @@ nav {
 #nav-part2 a {
     text-decoration: none;
     margin: 0vw 1.6vw;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(0, 0, 0);
 }
 
@@ -304,8 +304,8 @@ nav {
 }
 
 .section-box :nth-child(2) {
-    font-weight: 600;
-    font-size: 18px;
+       font-weight: 500;
+    font-size: 16px;
 }
 
 .section-box :nth-child(3) {
@@ -501,9 +501,9 @@ nav {
 
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1167px) {
     .pg3-sec-part {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
