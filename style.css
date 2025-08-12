@@ -119,11 +119,11 @@ nav {
     position: absolute;
     background-color: white;
     /* border: 2px solid orange; */
-    top: 72px;
+    top: 67px;
 }
 
 #hidden-list a {
-    font-size: 18px;
+    font-size: 16px;
     margin: 7px 25px;
 }
 
