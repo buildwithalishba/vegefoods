@@ -376,17 +376,14 @@ nav {
 
 @media screen and (max-width: 900px) {
 
-    /* #page2-section2{
-    flex-wrap: wrap;
-   } */
     #page2-section1 {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1167px) {
     #page2-section2 {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
